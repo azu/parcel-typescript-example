@@ -1,2 +1,8 @@
+const hello = () => {
+    return "Hello World!";
+};
+// main
 const main = document.getElementById("js-main");
-main.textContent = "Hello World!";
+if (main) {
+    main.textContent = hello();
+}
