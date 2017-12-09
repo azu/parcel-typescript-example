@@ -2,6 +2,14 @@
 
 A minimum TypeScript app with [Parcel Bundler](https://parceljs.org/).
 
+## Source code
+
+- [index.html](./src/index.html)
+- [index.ts](./src/index.ts)
+- [style.css](./src/style.css)
+
+For more details, see [src/](./src/).
+
 ## Usage
 
 ### Installation
@@ -10,7 +18,7 @@ A minimum TypeScript app with [Parcel Bundler](https://parceljs.org/).
 
 ### Development
 
-Launch server.
+Launch development server.
 
     yarn start
     
@@ -22,7 +30,7 @@ Compile TypeScript app and copy index.html to the `dist` folder.
 
 ### Deploy
 
-Deploy `dist` to GitHub Pages.
+Deploy `dist` folder to GitHub Pages.
 
     yarn run deploy
 
