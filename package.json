@@ -16,7 +16,7 @@
   "main": "lib/parcel-typescript-example.js",
   "scripts": {
     "start": "parcel serve src/index.html",
-    "build": "parcel src/index.html",
+    "build": "parcel build src/index.html",
     "watch": "parcel watch src/index.html",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
