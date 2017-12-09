@@ -1,0 +1,37 @@
+{
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "author": "azu",
+  "license": "MIT",
+  "files": [
+    "bin/",
+    "lib/",
+    "src/"
+  ],
+  "name": "parcel-typescript-example",
+  "version": "1.0.0",
+  "description": "TypeScript app with parcel bundler.",
+  "main": "lib/parcel-typescript-example.js",
+  "scripts": {
+    "start": "parcel serve src/index.html",
+    "build": "parcel src/index.html",
+    "watch": "parcel watch src/index.html",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/azu/parcel-typescript-example.git"
+  },
+  "bugs": {
+    "url": "https://github.com/azu/parcel-typescript-example/issues"
+  },
+  "homepage": "https://github.com/azu/parcel-typescript-example/tree/master/",
+  "devDependencies": {
+    "gh-pages": "^1.1.0",
+    "parcel-bundler": "^1.1.0",
+    "typescript": "^2.6.2"
+  }
+}
