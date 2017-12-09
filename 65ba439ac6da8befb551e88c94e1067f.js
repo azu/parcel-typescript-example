@@ -66,5 +66,5 @@ require = (function (modules, cache, entry) {
   // Override the current require with this new one
   return newRequire;
 })({3:[function(require,module,exports) {
-document.getElementById("js-main").textContent="Hello World!";
+"use strict";var t=document.getElementById("js-main");t&&(t.textContent="Hello World!");
 },{}]},{},[3])
