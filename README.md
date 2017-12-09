@@ -34,6 +34,8 @@ Deploy `dist` folder to GitHub Pages.
 
     yarn run deploy
 
+You can see the result in <https://azu.github.io/parcel-typescript-example/>.
+
 ## Contributing
 
 Pull requests and stars are always welcome.
