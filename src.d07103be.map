@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.ts"],"names":[],"mappings":";AAOC,aAPD,IAAM,EAAQ,WACH,MAAA,gBAGL,EAAO,SAAS,eAAe,WACjC,IACK,EAAA,YAAc","file":"src.d07103be.map","sourceRoot":"../src","sourcesContent":["const hello = () => {\n    return \"Hello World!\";\n};\n// main\nconst main = document.getElementById(\"js-main\");\nif (main) {\n    main.textContent = hello();\n}\n"]}
